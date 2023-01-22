@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "W W",
+      "WWW",
+      "WWW"
+    ],
+    "key": {
+      "W": {
+        "tag": "minecraft:wool_carpets"
+      }
+    },
+    "result": {
+      "item": "wool_gambeson:wool_gambeson_chestplate",
+      "count": 1
+    }
+  }

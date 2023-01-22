@@ -1,37 +1,24 @@
 {
 	"schemaVersion": 1,
-	"id": "wool-gambeson",
-	"version": "${version}",
+	"id": "wool_gambeson",
+	"version": "1.19.2-1.0.0",
 	"name": "Wool Gambeson",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds Gambeson armors made from wool, carpet specifically.",
 	"authors": [
-		"Me!"
+		"bgas"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/bgas/Wool-Gambeson",
+		"sources": "https://github.com/bgas/Wool-Gambeson"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/wool-gambeson/icon.png",
+	"icon": "assets/wool_gambeson/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.thegassworks.ExampleMod"
-		],
-		"client": [
-			"com.thegassworks.ExampleModClient"
-		],
-		"fabric-datagen": [
-			"com.thegassworks.ExampleModDataGenerator"
+			"com.thegassworks.WoolGambeson"
 		]
 	},
-	"mixins": [
-		"wool-gambeson.mixins.json",
-		{
-			"config": "wool-gambeson.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.14.13",
 		"minecraft": "~1.19.2",
